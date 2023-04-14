@@ -1,4 +1,14 @@
+## CDPP-Pulse-Example
+
 This is a very basic example of an atomic model that outputs a 3-uple at regular intervals. 
+
+### Setup
+
+This model assumes that the CD++ simulator is placed in the parent folder. For the sake of simplicity, the simulator is added as a git submodule.
+
+It must be noticed that a DEVS model for CD++ can be placed in any folder as long as the path to the simulator in the Makefile is correct.
+
+### Build the simulator and run a simulation
 
 If you take a look at `reg.cpp`, you will see how the model is registered into the simulator kernel:
 ```
