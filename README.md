@@ -2,7 +2,12 @@
 
 This is a very basic example of an atomic model that outputs a 3-uple at regular intervals. 
 
-### Setup
+To clone this repo use this command:
+```bash
+git clone --recurse-submodules  git@github.com:epecker/CDPP-Pulse-Example.git
+```
+
+### Simulation and Model different matters (Church and State different matters)
 
 This model assumes that the CD++ simulator is placed in the parent folder. For the sake of simplicity, the simulator is added as a git submodule.
 
